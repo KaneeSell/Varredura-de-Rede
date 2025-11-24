@@ -64,7 +64,7 @@ if %opt%==15 goto route_sniffer
 if %opt%==16 goto external_ip
 if %opt%==17 goto external_ip_geo
 if %opt%==18 goto optimize_network
-if %opt%==19 goto teste
+if %opt%==19 goto teste_ipv4
 if %opt%==20 goto end
 
 goto menu
@@ -412,7 +412,7 @@ echo Optimization complete.
 pause
 goto menu
 
-:teste
+:teste_ipv4
 cls
 echo ==== Teste IPV4 ====
 
