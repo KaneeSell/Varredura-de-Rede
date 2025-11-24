@@ -111,3 +111,5 @@ echo.
 
 endlocal
 pause
+
+start cmd /k ping_mapper.bat
